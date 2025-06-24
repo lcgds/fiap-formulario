@@ -47,6 +47,7 @@ h1 {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 11px;
+  text-transform: capitalize;
 }
 
 header p {

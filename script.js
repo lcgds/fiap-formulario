@@ -1,5 +1,3 @@
-// Adicione este script ao final do seu arquivo HTML ou em um arquivo JS vinculado
-
 document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("formulario")
