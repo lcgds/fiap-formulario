@@ -1,5 +1,8 @@
 :root {
   font-family: "Archivo", sans-serif;
+}
+
+* {
   box-sizing: border-box;
 }
 
@@ -68,6 +71,7 @@ form div {
   justify-content: center;
   width: 736px;
   border-top: #d6d6d6 solid 1px;
+  border-radius: 0 0 8px 8px;
 }
 
 h2 {
@@ -95,6 +99,7 @@ hr {
 }
 
 input {
+  padding-left: 16px;
   margin-left: 64px;
   margin-right: 64px;
   margin-bottom: 24px;
@@ -105,6 +110,8 @@ input {
 }
 
 textarea {
+  padding-left: 16px;
+  padding-top: 12px;
   margin-left: 64px;
   margin-right: 64px;
   margin-bottom: 64px;
@@ -127,4 +134,8 @@ button {
   font-weight: 600;
   line-height: 26px;
   font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
 }
